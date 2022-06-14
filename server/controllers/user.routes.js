@@ -3,6 +3,10 @@ const jwt = require('jsonwebtoken')
 const userRouter = require('express').Router()
 const User = require('../../databases/models/Model.User')
 
+userRouter.get('/' ,(req , res)=>{
+    res.send('welcomen to api notes')
+})
+
 userRouter.get('/oneUser', async (req, res) => {
     const authorization = req.get('authorization')
     let token = ''
