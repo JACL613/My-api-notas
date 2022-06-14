@@ -1,0 +1,4 @@
+GET http://localhost:3300/api/notes/oneNote/6289f7edb18e8b9814f71020
+Content-Type : application/json
+
+{}

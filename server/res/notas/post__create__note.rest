@@ -1,0 +1,8 @@
+POST http://localhost:3300/api/notes/createNote
+Content-Type : application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyODlmMmIxODQwMWRlMzU3NWY4YTk0MCIsIm5hbWV1c2VyIjoiSkFDTCIsImlhdCI6MTY1MzIwNzc4NX0.oz7lBvHKST9qLXdP7IC8jkS0IFzSHOyBbdWLy1xyLlw
+
+{
+    "title": "Nota: nota Nueva",
+    "content": "nueva nota"
+}
